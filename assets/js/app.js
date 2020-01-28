@@ -75,6 +75,17 @@ function startTestemonials() {
         infinite: true,
         speed: 300,
         arrows: true,
+        responsive: [{
+            breakpoint: 580,
+            settings: {
+                arrows: false
+            }
+        }, {
+            breakpoint: 768,
+            settings: {
+                arrows: true
+            }
+        }]
     });
 }
 
@@ -84,8 +95,18 @@ function startSplit() {
         dots: false,
         infinite: true,
         speed: 300,
-        arrows: true,
-        draggable: false
+        draggable: false,
+        responsive: [{
+            breakpoint: 580,
+            settings: {
+                arrows: false
+            }
+        }, {
+            breakpoint: 768,
+            settings: {
+                arrows: true
+            }
+        }]
     });
 
     $(".split-screen").twentytwenty();

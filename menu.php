@@ -57,7 +57,7 @@
 
 
 <div class="pushmenu pushmenu-right textCapitalize">
-    <div class="center">
+    <div class="center logo">
         <a href="index.php">
             <img src="assets/img/perfectha.png" alt="">
         </a>

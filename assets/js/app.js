@@ -2,37 +2,6 @@ $(document).ready(function() {});
 
 /********************* HOME TYPEWRITER *********************/
 function startHome() {
-    var speed = 150;
-    var pos = 0;
-    var turn = 0;
-    var data = ["dermatologia estética", "rejuvenescimento"];
-    setTimeout(typeWriter, speed);
-
-    function typeWriter() {
-        if (pos < data[turn].length) {
-            document.querySelector(".home-slider-text-typewriter").innerHTML += data[
-                turn
-            ].charAt(pos);
-            pos++;
-            setTimeout(typeWriter, speed);
-        } else {
-            setTimeout(erase, speed + 100);
-        }
-    }
-
-    function erase() {
-        if (pos >= 0) {
-            var str = data[turn].toString().substring(0, pos);
-            document.querySelector(".home-slider-text-typewriter").innerHTML = str;
-            pos--;
-            setTimeout(erase, speed - 100);
-        } else {
-            turn++;
-            if (turn >= data.length) turn = 0;
-            setTimeout(typeWriter, speed);
-        }
-    }
-
     $(".home-slider").slick({
         dots: false,
         infinite: true,
@@ -49,6 +18,9 @@ function startHome() {
             }
         }]
     });
+
+    $(".split-screen").twentytwenty();
+
 }
 
 /********************* MENU *********************/
@@ -81,7 +53,7 @@ $(".pushmenu > a").click(function() {
 
 /********************* SCROLL *********************/
 $(document).on("scroll", function() {
-    if ($(document).scrollTop() > 100) {
+    if ($(document).scrollTop() > 50) {
         $(".menu").addClass("menusolid");
         $(".menumobile").addClass("menusolid");
     } else {
@@ -96,6 +68,28 @@ function startSpeakers() {
     $('.modal').modal();
 }
 
+
+function startTestemonials() {
+    $('.testemonials-slider').slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        arrows: true,
+    });
+}
+
+
+function startSplit() {
+    $('.split-slider').slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        arrows: true,
+        draggable: false
+    });
+
+    $(".split-screen").twentytwenty();
+}
 
 $('.representantes-item').click(function() {
     var status = $(this).find('.representantes-plus').html();

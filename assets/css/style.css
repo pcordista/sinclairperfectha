@@ -611,6 +611,7 @@ footer {
 .find-selects-content {
     background-image: url('../img/testemonials.png');
     background-size: cover;
+    padding-bottom: 3rem;
 }
 
 .find-selects .button {
@@ -655,6 +656,26 @@ footer {
     bottom: 0;
     right: 0;
     z-index: -1;
+}
+
+.find-profs-noimage::before {
+    top: 0px !important;
+}
+
+
+/********************* PAGINA CONTATO *********************/
+
+.contato input,
+.contato select,
+.contato textarea {
+    background-color: #EAEAEA !important;
+    border: 0px !important;
+    border-radius: 5px !important;
+    margin-bottom: 0px !important;
+}
+
+.contato textarea {
+    height: 150px;
 }
 
 

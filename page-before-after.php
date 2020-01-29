@@ -14,13 +14,15 @@ header("Etag: $etag");
     <img src="assets/img/banner-ba.jpg" class="widthfull">
 </div>
 
-<div class="sectionStart representantes-intro faq">
+<div class="sectionStart representantes-intro">
     <div class="containerEighteen">
         <div class="intro black-text">
             <h1>Pacientes reais. Resultados reais.</h1>
             <P>Confira o <strong>antes e depois</strong> do procedimento com Perfectha!</P>
         </div>
-        <div class="before-after-page split-slider">
+    </div>
+    <div class="find-selects-content">
+        <div class="before-after-page containerEighteen split-slider">
             <div>
                 <div class="split-screen twentytwenty-container row">
                     <img src="assets/img/split-before.jpg" class="widthfull" />
@@ -171,7 +173,7 @@ header("Etag: $etag");
 </div>
 
 
-<div class="sectionStart speakers-prof find-profs center-align" style="min-height:250px">
+<div class="speakers-prof find-profs find-profs-noimage center-align" style="min-height:250px">
 </div>
 
 

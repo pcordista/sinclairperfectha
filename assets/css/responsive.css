@@ -2,7 +2,8 @@
     .container,
     .containerEighteen {
         max-width: 1500px;
-        width: 65%;
+        width: 65% !important;
+        margin: 0 auto !important
     }
     .menu-links {
         display: flex;

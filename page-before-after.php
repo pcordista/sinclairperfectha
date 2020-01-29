@@ -170,18 +170,8 @@ header("Etag: $etag");
 </div>
 </div>
 
-<div class="search">
-    <img src="assets/img/search-profs.png" alt="">
-    <div class="full_absolute flex alignCenter">
-        <div class="center">
-            <h4>Encontre um profissional especializado</h4>
-            <div class="margin_2_top">
-                <a href="#" class="textUpper">
-                    clique aqui
-                </a>
-            </div>
-        </div>
-    </div>
+
+<div class="sectionStart speakers-prof find-profs center-align" style="min-height:250px">
 </div>
 
 

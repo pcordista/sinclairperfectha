@@ -14,7 +14,7 @@ header("Etag: $etag");
     <img src="assets/img/contato.jpg" class="widthfull">
 </div>
 
-<div class="sectionStart representantes-intro faq">
+<div class="sectionStart representantes-intro faq contatobg">
     <div class="containerEighteen">
         <div class="intro black-text">
             <h1>CONTATO</h1>
@@ -77,7 +77,7 @@ header("Etag: $etag");
         </div>
     </div>
 </div>
-<div class="contacts flex justifycenter">
+<div class="contacts flex justifycenter relative">
     <div>
         <strong>Sinclair Pharma Brazil</strong><BR>
         Av. Queiroz Filho, Torre Gaivota 1.560<BR>

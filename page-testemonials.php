@@ -18,8 +18,8 @@ header("Etag: $etag");
     <div class="containerEighteen">
         <div class="intro black-text">
             <h1>DEPOIMENTOS</h1>
-            <P>Perfectha é qualidade francesa à sua disposição! </P>
-            <P>Confira o <STRONG>depoimento</STRONG> de alguns de nossos pacientes: </P>
+            <h2>Perfectha é qualidade francesa à sua disposição! </h2>
+            <h2>Confira o <STRONG>depoimento</STRONG> de alguns de nossos pacientes: </h2>
 
         </div>
     </div>

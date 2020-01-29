@@ -109,7 +109,7 @@ header("Etag: $etag");
             </div>
         </div>
     </div>
-    <div class="contacts flex justifycenter">
+    <div class="contacts flex justifycenter relative">
         <div>
             <strong>Sinclair Pharma Brazil</strong><BR>
             Av. Queiroz Filho, Torre Gaivota 1.560<BR>

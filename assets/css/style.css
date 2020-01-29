@@ -379,15 +379,14 @@ footer .li-title {
 }
 
 .copyright {
-    display: flex
+    display: flex;
+    align-items: center;
 }
 
 .copyright-container {
     background: #DBADB9;
     padding: 3rem 0;
     color: white;
-    display: flex;
-    align-items: center;
 }
 
 .copyright-footer {

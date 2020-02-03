@@ -14,7 +14,7 @@ header("Etag: $etag");
     <img src="assets/img/find.jpg" class="widthfull">
 </div>
 
-<div class="sectionStart representantes-intro faq">
+<div class="sectionStart representantes-intro findbg">
     <div class="containerEighteen">
         <div class="intro">
             <h1>ENCONTRE UM MÉDICO</h1>

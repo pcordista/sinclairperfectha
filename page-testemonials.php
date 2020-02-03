@@ -14,7 +14,7 @@ header("Etag: $etag");
     <img src="assets/img/testemonials.jpg" class="widthfull">
 </div>
 
-<div class="sectionStart representantes-intro faq">
+<div class="sectionStart testemonials-intro faq">
     <div class="containerEighteen">
         <div class="intro black-text">
             <h1>DEPOIMENTOS</h1>
@@ -66,7 +66,7 @@ header("Etag: $etag");
     </div>
 </div>
 
-<div class="sectionStart representantes-intro faq">
+<div class="sectionStart testemonials-intro">
     <div class="containerEighteen">
         <div class="intro">
             <h1>ENCONTRE UM MÉDICO</h1>
@@ -100,7 +100,7 @@ header("Etag: $etag");
         </div>
     </div>
 </div>
-<div class="speakers-prof find-profs find-profs-noimage center-align" style="min-height:250px">
+<div class="speakers-prof find-profs find-profs-noimage center-align" style="margin-top: -4rem; min-height:250px">
 </div>
 
 

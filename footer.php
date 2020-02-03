@@ -77,7 +77,7 @@
         <div class="copyright">
             <div class="copyright-footer center-align">
                 <div class="footer-text">
-                    <h6>©copyright | WCS 2020. Todos os direitos reservados.</h6>
+                    <h6>©copyright | Sinclair Pharma 2020. Todos os direitos reservados.</h6>
                 </div>
             </div>
             <div class="desenvolvido development" style="vertical-align: middle;">

@@ -69,9 +69,7 @@ header("Etag: $etag");
 <div class="sectionStart testemonials-intro">
     <div class="containerEighteen">
         <div class="intro">
-            <h1>ENCONTRE UM MÉDICO</h1>
-            <h2>Perfectha. Perfeito para sua pele.</h2>
-            <h2>Encontre o <strong>profissional especializado</strong> mais perto de você!</h2>
+            <h2>Encontre o <strong>profissional</strong> especializado mais perto de você!</h2>
         </div>
         <div class="find-selects">
             <div class="row">
@@ -100,7 +98,7 @@ header("Etag: $etag");
         </div>
     </div>
 </div>
-<div class="speakers-prof find-profs find-profs-noimage center-align" style="margin-top: -4rem; min-height:250px">
+<div class="speakers-prof find-profs sectionStart find-profs-noimage bola center-align" style="min-height:150px">
 </div>
 
 

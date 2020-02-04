@@ -170,10 +170,9 @@ header("Etag: $etag");
         </div>
     </div>
 </div>
-</div>
 
 
-<div class="speakers-prof find-profs find-profs-noimage center-align" style="min-height:150px">
+<div class="speakers-prof find-profs sectionStart find-profs-noimage bola center-align" style="min-height:150px">
 </div>
 
 

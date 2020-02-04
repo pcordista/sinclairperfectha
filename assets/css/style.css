@@ -78,7 +78,7 @@ strong {
 
 .top-menu .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -89,6 +89,7 @@ strong {
 .menu-redes {
     display: flex;
     flex-flow: row;
+    margin-right: 1rem;
 }
 
 .menu-redes > a{
@@ -102,8 +103,8 @@ strong {
 
 .menu-redes i {
     font-size: 15px;
+    color: #052d8f !important
 }
-
 
 
 /********************* HOME-INTRO *********************/
@@ -158,7 +159,7 @@ strong {
     background-image: url('../img/linhas-before.png');
     background-repeat: no-repeat;
     top: 0;
-    left: 0;
+    left: -5vw;
     bottom: 0;
     position: absolute;
     content: "";
@@ -171,7 +172,7 @@ strong {
     background-repeat: no-repeat;
     background-size: cover;
     top: -10%;
-    right: 0;
+    right: -5vw;
     bottom: 0;
     position: absolute;
     content: "";
@@ -341,6 +342,23 @@ strong {
     width: 20%;
     background-size: cover;
     height: 120%;
+}
+
+.find-profs-noimage {
+    margin-top: 5rem !important
+}
+
+.find-profs-noimage::after {
+    background: url(../img/circle.png);
+    content: ' ';
+    position: absolute;
+    right: 0;
+    top: -40%;
+    bottom: 0;
+    width: 20%;
+    background-size: cover;
+    height: 140%;
+    z-index: 99;
 }
 
 .search .center {
@@ -535,6 +553,22 @@ footer {
 }
 
 
+/********************* PAGINA CONTATO *********************/
+
+.contato input,
+.contato select,
+.contato textarea {
+    background-color: #EAEAEA !important;
+    border: 0px !important;
+    border-radius: 5px !important;
+    margin-bottom: 0px !important;
+}
+
+.contato textarea {
+    height: 150px;
+}
+
+
 /********************* INTRO  *********************/
 
 .about-intro .containerEighteen {
@@ -645,6 +679,7 @@ footer {
 .about-core .sobre-block-5 img {
     max-width: 450px;
     margin-left: 50px;
+    min-width: 250px;
 }
 
 .about-core .sobre-block-5 .about-core-text {
@@ -668,6 +703,7 @@ footer {
     max-width: 330px;
     margin-left: 3.5rem;
 }
+
 
 
 /********************* FIND *********************/
@@ -765,7 +801,7 @@ footer {
     position: relative;
 }
 
-.contatobg::after {
+/* .contatobg::after {
     background: url('../img/contato-bg.png');
     position: absolute;
     left: 25px;
@@ -774,7 +810,7 @@ footer {
     height: 500px;
     content: '';
     background-size: cover;
-}
+} */
 
 
 /********************* PAGINA SPEAKERS *********************/

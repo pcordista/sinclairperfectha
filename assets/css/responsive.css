@@ -431,4 +431,28 @@
     .before-after>div {
         margin: 1rem 0
     }
+    .home-intro-mobile {
+      position: relative;
+    }
+    .home-intro-mobile .container {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      top: 0;
+      padding: 2.5rem 0;
+      font-size: 13px;
+      line-height: 22px;
+    }
+    .home-intro-mobile h4 {
+      font-size: 16px;
+      line-height: 22px;
+    }
+    .home-intro-mobile .home-intro-one {
+      padding-right: 4rem;
+    }
+    .home-intro-mobile .home-intro-two {
+      padding-left: 5rem;
+      padding-top: 3rem;
+    }
 }
